@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+
+   
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url('./bg1.avif');
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.navbar{
+    background: rgba(0,0,0,.7);
+    color: #efece5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 50px 0;
+    font-size: 44px;
+
+}
+.img{
+    
+}
+
+.card{
+    border: 2px solid rgb(247, 242, 242);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin:  auto;
+    padding: 1rem 1rem;
+    width: 450px;
+    max-width: 500px;
+    height: 290px;
+    max-height: 400px;
+    background: rgb(0, 0, 0 ,0.7) ;
+    color: aliceblue;
+    
+   
+   
+}
+.search-bar{
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    width:350px ;
+    background-color:  rgba(70, 73, 72, 0.5);
+    color: rgb(234, 239, 244);
+    
+    
+}
+::placeholder{
+    color:white;
+}
+.btn{
+    background-color: rgba(70, 73, 72, 0.5);
+     border: none;
+    border-radius: 100px; 
+    margin-left: 5px;
+    padding: 7px;
+    cursor: pointer;
+    color: white   !important;
+    
+}
+
+.city{
+    padding: 30px 0px 25px 0px ;
+    
+    
+}
+
+
+.temp{
+    padding-bottom: 10px;
+   font-size: 30px;
+
+}
+.dt{
+     
+   font-size: 20px;
+
+}
+.description{
+    padding-top: 5px;
+    padding-bottom: 5px;
+   font-size: 20px;
+
+}
+.humidity{
+    padding-bottom: 5px;
+
+   font-size: 20px;
+
+}
+.wind{
+   font-size: 20px;
+
+}

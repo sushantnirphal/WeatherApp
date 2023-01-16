@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="navbar"><img src="/sk.png" alt="" class="img">WeatherApp</nav>
+
+    <div class="card">
+        <form class="search">
+            <input type="" class="search-bar" id="search-bar" placeholder="Search city">
+            <button class="btn" id="search-btn" type="">	
+                  <i class="fa fa-search"></i>
+                </button>
+            </form>
+
+        <div class="weather">
+           
+            <h1 class="city">Weather in <span style="text-transform: capitalize;" id="display-city"></span></h1>
+            <div class="temp"> <span class="temp-screen">00</span> °<sup>c</sup></div>
+            <div class="dt">Date: <span class="dandt">00-00-0000 00:00</span></div>
+            <div class="description">Weather: <span class="wheather">--</span> </div>
+            <div class="humidity">Humidity: <span class="humid">00</span> %</div>
+            <div class="wind">Windspeed: <span class="wind-speed">00</span>  Km/h</div>
+
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
